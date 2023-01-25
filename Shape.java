@@ -1,4 +1,4 @@
-package All_Abstraction;
+package opps;
 
 abstract public class Shape {
     double x,y;
@@ -40,7 +40,7 @@ class triangle extends Shape {
 }
 class result_shape {
     public static void main(String [] args){
-        Shape obj ;  // reference variable
+        Shape obj ;  
         
         obj = new rectangle(5.0,6.0);
         obj.area();
@@ -50,5 +50,3 @@ class result_shape {
         obj.area();
     }
 }
-Footer
-© 2023 GitHub, Inc.
